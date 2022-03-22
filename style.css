@@ -1,0 +1,157 @@
+*{
+      font-family: 'Outfit', sans-serif;
+      margin: 0;
+      padding: 0;
+}
+body
+{
+background-color: hsl(217, 54%, 11%);
+display: flex;
+align-items: center;
+height: 95vh;
+justify-content: center;
+margin: 8px;
+
+}
+.card
+{
+border-radius:4%;
+background-color:hsl(216, 50%, 16%);
+width:300px;
+height:509.25px;
+display:block;
+justify-content:center;
+box-shadow: 6px 20px 10px 8px rgba(0, 0, 0, 0.568);
+background-size: cover;
+}
+.card1
+{
+width:260px;
+height:255px;
+border:20px;
+margin:20px;
+margin-bottom:0px;
+border-radius:3%;
+}
+.header
+{
+font-size:16px;
+margin-left:20px;
+margin-top:16px;
+margin-bottom:16px;
+font-family: 'Outfit', sans-serif;
+color:hsl(0, 0%, 100%);
+}
+.sub
+{
+font-size:16px;
+margin-left:20px;
+margin-top:18px;
+margin-bottom:18px;
+color:hsl(215, 51%, 70%);
+}
+.img
+{
+display:flex;
+align-items:center;
+padding-left:15px;
+
+}
+.description
+{
+color:hsl(178, 100%, 50%);
+font-size:14px;
+}
+.img img
+{
+padding:5px;
+padding-top:0x;
+}
+.img1
+{
+display:flex;
+align-items:center;
+padding-left:25px;
+
+}
+.description1
+{
+color:hsl(215, 51%, 70%);
+font-size:13px;
+}
+.img1 img{
+padding:5px;
+padding-left:15px;
+margin-left:55px;
+}
+.hr
+{
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: hsl(215, 51%, 70%);
+    height: 0.2px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.footer
+{
+padding-left: 20px;
+display:flex;
+align-items:center;
+border-left:20px;
+border-right:20px;
+padding-bottom:25px;
+}
+.footer img {
+    width: 28px;
+    height: 28px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 12px;
+}
+.new
+{
+color:hsl(215, 51%, 70%);
+padding-right:5px;
+font-size:14px;
+}
+.new1
+{
+color:rgb(255, 255, 235);
+font-size:14px;
+}
+.card1:hover {
+    background-image: url("images/icon-view.svg"),url("images/image-equilibrium.jpg");
+    background-size: 40px , cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsl(178, 100%, 50%);
+    background-blend-mode: screen;
+    opacity:0.25;
+    cursor: pointer;
+
+}
+.header:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.new1:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+@media (max-width:550px){
+    .image{
+        pointer-events: none;
+    }
+    .heading{
+        pointer-events: none;
+    }
+    .se{
+        pointer-events: none;
+    }
+    .card{
+        box-shadow:none;
+    }
+
+}
